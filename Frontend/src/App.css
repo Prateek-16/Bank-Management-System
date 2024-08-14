@@ -1,0 +1,29 @@
+html, body {
+    width: 97vw;
+    height: 97vh;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  button:focus {
+    outline: none; /* Remove outline when focused */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Add a focus ring */
+  }
+  
+  button:active {
+    background-color: #004085; /* Even darker blue when the button is pressed */
+  }
+  
